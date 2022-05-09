@@ -1,0 +1,12 @@
+com\backend\Springbackend\login\Login.class
+com\backend\Springbackend\Repository\CoursesRepository.class
+com\backend\Springbackend\Controller\CoursesController.class
+com\backend\Springbackend\Service\CoursesService.class
+com\backend\Springbackend\ServiceImpl\CoursesServiceImpl.class
+com\backend\Springbackend\Controller\UserController.class
+com\backend\Springbackend\TestingApplication.class
+com\backend\Springbackend\Service\UserService.class
+com\backend\Springbackend\Entity\Courses.class
+com\backend\Springbackend\Entity\User.class
+com\backend\Springbackend\Repository\UserRepository.class
+com\backend\Springbackend\ServiceImpl\UserServiceImpl.class
