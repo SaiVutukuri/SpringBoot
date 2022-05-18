@@ -2,6 +2,7 @@ package com.backend.Springbackend.ServiceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -54,7 +55,8 @@ public class CoursesServiceImpl implements CoursesService{
 
 	@Override
 	public void updateStatus(Courses courses) {
-		Courses coursesDB = coursesRepository.findById(courses.getcId()).orElseThrow();
+//		Courses coursesDB = coursesRepository.findById(courses.getcId()).orElseThrow();
+		Optional<Courses> coursesDB = coursesRepository.findById(courses.getcId());
 		coursesRepository.save(courses);
 	}
 }
